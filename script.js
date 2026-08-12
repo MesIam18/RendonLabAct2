@@ -26,7 +26,7 @@ function showTypedText() {
 }
 
 function changeBackground() {
-    document.body.style.backgroundColor = lightblue;
+    document.body.style.backgroundColor = "lightblue";
     console.log("Background color changed.");
 }
 
