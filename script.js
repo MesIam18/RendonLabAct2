@@ -1,5 +1,5 @@
 const heading = document.querySelector("#mainHeading");
-const nameInput = document.querySelector("#name");
+const nameInput = document.querySelector("#nameInput");
 const typingMessage = document.querySelector("#typingMessage");
 const resultMessage = document.querySelector("#resultMessage");
 
