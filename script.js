@@ -39,7 +39,7 @@ function resetPage() {
     document.body.style.backgroundColor = "#f3f4f6";
 }
 
-greetButton.addEventListener("click", displayGreeting());
+greetButton.addEventListener("click", displayGreeting);
 colorButton.addEventListener("clicked", changeBackground);
 resetButton.addEventListener("click", resetPage);
 nameInput.addEventListener("change", showTypedText);
