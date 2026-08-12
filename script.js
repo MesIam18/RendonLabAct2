@@ -42,6 +42,6 @@ function resetPage() {
 greetButton.addEventListener("click", displayGreeting);
 colorButton.addEventListener("click", changeBackground);
 resetButton.addEventListener("click", resetPage);
-nameInput.addEventListener("change", showTypedText);
+nameInput.addEventListener("input", showTypedText);
 
 console.log("JavaScript file loaded successfully.");
