@@ -5,7 +5,7 @@ const resultMessage = document.querySelector("#resultMessage");
 
 const greetButton = document.querySelector("#greetButton");
 const colorButton = document.querySelector("#colorButton");
-const resetButton = document.querySelector("#resetBtn");
+const resetButton = document.querySelector("#resetButton");
 
 function displayGreeting() {
     const userName = nameInput.value.trim();
