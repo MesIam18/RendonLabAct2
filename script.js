@@ -16,7 +16,7 @@ function displayGreeting() {
     } else {
         heading.textContent = "Hello, " + userName;
         resultMessage.textContent =
-            "The greeting was displayed successfully."
+            "The greeting was displayed successfully.";
     }
 }
 
