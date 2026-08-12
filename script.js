@@ -10,7 +10,7 @@ const resetButton = document.querySelector("#resetButton");
 function displayGreeting() {
     const userName = nameInput.value.trim();
 
-    if (userName = "") {
+    if (userName === "") {
         resultMessage.textContent =
             "Please enter your name.";
     } else {
