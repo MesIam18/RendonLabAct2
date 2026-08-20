@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic Event-Driven Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div id="pageContainer">
+        <header id="studentInfo">
+            <p><strong>Name:</strong> Ed Andrew A. Rendon</p>
+            <p><strong>Course & Block:</strong> BSIT III / Block II</p>
+            <p><strong>Date:</strong> August 21, 2026</p>
+        </header>
+
+        <h1 id="mainHeading">Welcome to Event-Driven Programming</h1>
+
+        <div class="input-group">
+            <label for="nameInput">Enter your name:</label>
+            <input type="text" id="nameInput" placeholder="Type your name here...">
+        </div>
+
+        <div class="button-group">
+            <button id="greetingButton">Display Greeting</button>
+            <button id="backgroundButton">Change Background</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <p id="messageArea"></p>
+    </div>
 </body>
 </html>
